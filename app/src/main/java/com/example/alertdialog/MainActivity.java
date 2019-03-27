@@ -20,9 +20,6 @@ public class MainActivity extends AppCompatActivity {
         Button button=findViewById(R.id.clickme);
         final EditText tvUsername=(EditText)v.findViewById(R.id.tv_username);
         final EditText tvPassword=(EditText)v.findViewById(R.id.tv_password);
-//        LayoutInflater inflater=MainActivity.this.getLayoutInflater();
-//        View v= inflater.inflate(R.layout.my_dialog,null,false);
-
 
         builder.setView(v);
         builder.setCancelable(false);
